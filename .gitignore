@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & Database files
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/*.duckdb*
+models/*.pkl
+models/*.joblib
+
+# Streamlit Local Configs
+.streamlit/secrets.toml
+
+# OS Files
+.DS_Store
+Thumbs.db.vscode/
