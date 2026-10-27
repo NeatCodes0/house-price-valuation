@@ -1,0 +1,4 @@
+[33m2b7dcc0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m feat: complete phase 3 econometric modeling, hypothesis tests, hc3 diagnostics, and model serialization
+[33m0a45f4d[m docs: add comprehensive phase 2 eda and feature engineering documentation
+[33m3b78e6d[m feat: complete phase 2 eda, feature engineering, vif audit, and persistence
+[33m8bc8ebd[m chore: ignore python egg-info metadata
