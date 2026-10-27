@@ -10,7 +10,7 @@ MODELS_DIR = BASE_DIR / "models"
 SQL_DIR = BASE_DIR / "sql"
 
 # Raw Data Paths
-RAW_DATA_PATH = RAW_DATA_DIR / "train.csv"
+RAW_DATA_PATH = RAW_DATA_DIR / "AmesHousing.csv"
 DATA_DESCRIPTION_PATH = RAW_DATA_DIR / "data_description.txt"
 
 # Core Modeling Constants
