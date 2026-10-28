@@ -15,8 +15,10 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/housing_engineered.parquet
 data/*.duckdb*
 models/*.pkl
+!models/hedonic_ols_model.pkl
 models/*.joblib
 
 # Streamlit Local Configs
