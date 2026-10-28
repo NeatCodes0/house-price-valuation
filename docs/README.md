@@ -4,7 +4,7 @@
 [![Statsmodels](https://img.shields.io/badge/Statsmodels-OLS_%26_HC3-blue?style=for-the-badge)](https://www.statsmodels.org/)
 [![DuckDB](https://img.shields.io/badge/DuckDB-OLAP_Database-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)](https://duckdb.org)
 [![Apache Parquet](https://img.shields.io/badge/Apache_Parquet-Columnar_Storage-5085A5?style=for-the-badge)](https://parquet.apache.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Interactive_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://house-price-valuation-iqyeamnujy79heurkwbxh3.streamlit.app)
 
 An end-to-end, econometrically grounded real estate pricing pipeline and interactive valuation system. Built on Dean De Cock's Ames Housing Dataset, this engine applies data hygiene, spatial window analytics, Variance Inflation Factor (VIF) collinearity pruning, causal hypothesis testing, and MacKinnon-White (HC3) robust standard errors, achieving an **Adjusted $R^2$ of 0.9064** across 2,412 arm's-length residential transactions.
 
@@ -151,7 +151,7 @@ house-price-valuation/
 
 ### 1. Clone & Environment Setup
 ```powershell
-git clone https://github.com/<your-username>/house-price-valuation.git
+git clone https://github.com/NeatCodes0/house-price-valuation.git
 cd house-price-valuation
 
 python -m venv venv
@@ -175,13 +175,16 @@ pip install -e .
 <summary><b>💻 6. Interactive Valuation Dashboard (Streamlit)</b></summary>
 <br>
 
-Launch the local Streamlit dashboard:
+The application is deployed live on Streamlit Community Cloud:  
+👉 **[Launch Live Ames Hedonic Valuation Engine](https://house-price-valuation-iqyeamnujy79heurkwbxh3.streamlit.app)**
+
+To launch locally:
 
 ```powershell
 streamlit run app/app.py
 ```
 
-The app will launch at `http://localhost:8501`, featuring:
+The local instance launches at `http://localhost:8501`, featuring:
 - **Real-Time Appraisals:** Dynamic point valuations with analytical 95% prediction intervals.
 - **Submarket Benchmarking:** Live KDE distribution overlay comparing the configured home against historical sales in the selected Ames neighborhood.
 - **Marginal Dollar Attribution:** Precise breakdown of dollar equity gains per square foot, bathroom, or renovation adjustment.
